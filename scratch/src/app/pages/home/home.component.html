@@ -1,0 +1,9 @@
+<h1 class="mx-4">Contacts</h1>
+<br>
+<button type="button" class="btn btn-primary mx-4 mb-4"><span><i class="fa-thin fa-plus"></i></span>Add</button><br>
+<div class="card mb-4 mx-4" style="width: 18rem;" *ngFor="let customer of customers">
+  <div class="card-body">
+    <h5 class="card-title">{{customer.fullname}}</h5>
+    <p class="card-text">{{customer.phone}}</p>
+  </div>
+</div>

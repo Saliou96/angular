@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  public customers: any[] = [
+    {
+      id:1,
+      fullname:"Abdou Diop",
+      phone:123456789,
+    },
+    {
+      id:2,
+      fullname:"Moussa Fall",
+      phone:987654321,
+    },
+  ]
 
 }
