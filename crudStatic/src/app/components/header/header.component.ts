@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  cheminImage:any = "F:/work/angular/crudStatic/src/assets/im.jpeg";
 }
